@@ -3,5 +3,5 @@ class Person
   def initialize=(name)
     @name
   end
-  beyonce.instance_variable_get(:@name)
+  name.instance_variable_get(:@name)
 end
